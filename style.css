@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(197, 191, 191);
+    color: #fff;
+    font-family: Bowlby One SC;
+}
+
+.top{
+    color: rgb(68, 94, 129);
+    text-align: center;
+    margin-top: 5%;
+    font-size:50px;
+}
+
+.img-1{
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+}
+
+.img-1:hover, .img-2:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 20%;
+
+}
+
+.img-2{
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+}
+
+#heading:hover{
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+#hr{
+    margin-left: 5%;
+    width:90%;
+}
+
+#hdns h2{
+    font-family: Bradley Hand ITC;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+#hdnsd h2{
+    font-family: Bradley Hand ITC;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+#name{
+    font-family: Bradley Hand ITC;
+    margin-left: 5%;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.content{
+    text-align: center;
+}
+
+.image{
+    width: 50%;
+    padding-left: 2%;
+    height: 20%;
+}
+
+.text{
+    font-family: Bradley Hand ITC;
+    font-size: 1.7rem;
+    width: 70%;
+    margin-left: 15%;
+}
+
+ #book{
+     width: 30%;
+     margin-left: 10%;
+     margin-right: 10%;
+ }
+
+ @media(max-width:600px){
+    #name{
+        margin-left: 3%;
+        font-size: 30px;
+        
+    }
+
+    .text{
+        font-size: 1rem;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
